@@ -1,9 +1,11 @@
 # sql-basics
 CREATE TABLE coomand used to create table.
-Syntax: CREATE TABLE Tablename(columnname datatype);
+
+`Syntax:`` 
+```CREATE TABLE Tablename(columnname datatype);```
 
 SELECT is used to show all records in table. 
-select * from tablename.
+```select * from tablename.```
 
 
 
