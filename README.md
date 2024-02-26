@@ -49,10 +49,12 @@ The DELETE statement is used to delete existing records in a table.
  
 ``CREATE TABLE``` coomand used to create table.
 
-`Syntax:`` 
+``Syntax:`` 
+
 ```CREATE TABLE Tablename(columnname datatype);```
 
 SELECT is used to show all records in table. 
+
 ```select * from tablename.```
 
 Table is collection of rows and coloumns. 
@@ -69,9 +71,11 @@ The IN operator allows you to specify multiple values in a WHERE clause.
 
 The UNION operator selects only distinct values by default. To allow duplicate values, use UNION ALL: 
 
-```SELECT column_name(s) FROM table1 
+```
+SELECT column_name(s) FROM table1 
 UNION ALL 
-SELECT column_name(s) FROM table2;```
+SELECT column_name(s) FROM table2;
+```
 
  
 
@@ -88,9 +92,21 @@ UNION
 SELECT column_name(s) FROM table2;  
 ```
  
- 
+The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns. 
 
-Q. Why we used * in sql.
-Asterik is used to fetch every record in table.
+The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
 
-Q. What is the difference between view and table?
+```
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+```
+
+A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again. 
+
+```CREATE PROC SP_NAME AS```
+
+
