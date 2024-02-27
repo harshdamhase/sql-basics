@@ -116,17 +116,19 @@ A stored procedure is a prepared SQL code that you can save, so the code can be 
 ``DROP VIEW`` To delete view.
 
  
-
 ACID PROPERTY 
 
-A : ATOMICITY 
+``A`` : ATOMICITY 
 
-C: CONSISTENCY 
+``C``: CONSISTENCY 
 
-I: ISOLATION 
+``I``: ISOLATION 
 
-D: DURABILITY 
+``D``: DURABILITY 
 
  
+``CURSOR``: ROW BY ROW Insertion of records. 
 
-CURSOR: ROW BY ROW Insertion of records. 
+table is an independent data object.	VIEW depends on the table. Therefore we cannot create a view without using tables. 
+Table is a physical entity that means data is actually stored in the table. The view is a virtual entity, which means data is not actually stored in the table.
+
