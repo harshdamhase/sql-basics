@@ -109,4 +109,24 @@ A stored procedure is a prepared SQL code that you can save, so the code can be 
 
 ```CREATE PROC SP_NAME AS```
 
+``VIEW`` Is a virtual represntation of table. WE can create,update and delte view. using commanads.
 
+``CREATE VIEW`` To create a view.
+``UPDATE VIEW`` To update view.
+``DROP VIEW`` To delete view.
+
+ 
+
+ACID PROPERTY 
+
+A : ATOMICITY 
+
+C: CONSISTENCY 
+
+I: ISOLATION 
+
+D: DURABILITY 
+
+ 
+
+CURSOR: ROW BY ROW Insertion of records. 
