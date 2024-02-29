@@ -129,6 +129,10 @@ ACID PROPERTY
  
 ``CURSOR``: ROW BY ROW Insertion of records. 
 
-table is an independent data object.	VIEW depends on the table. Therefore we cannot create a view without using tables. 
-Table is a physical entity that means data is actually stored in the table. The view is a virtual entity, which means data is not actually stored in the table.
+`table` is an independent data object.	
+`VIEW` depends on the table. Therefore we cannot create a view without using tables. 
+
+`Table` is a physical entity that means data is actually stored in the table. The `view` is a virtual entity, which means data is not actually stored in the table.
+
+
 
