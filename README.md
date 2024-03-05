@@ -134,5 +134,5 @@ ACID PROPERTY
 
 `Table` is a physical entity that means data is actually stored in the table. The `view` is a virtual entity, which means data is not actually stored in the table.
 
-
+`Page` is used to display the information.
 
