@@ -136,3 +136,31 @@ ACID PROPERTY
 
 `Page` is used to display the information.
 
+commit and rollback are transactions.
+
+**Rollback** It is used for reverting changes performed by transactions.
+
+`Syntax`
+
+```js
+Rollback;
+```
+
+**Commit** It is used to storing changes permantly performed by a transaction.
+
+```js
+COMMIT;
+```
+
+#### ERRORS IN SQL:
+
+1.**Syntax Error**
+2.**datatype error**
+3. **constraint validation**
+4. **semantic error**
+
+### SQL GROUP BY Close
+
+It is used to group rows to have the same values into summary rows
+
+
